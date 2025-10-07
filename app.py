@@ -86,6 +86,10 @@ def apply_header_style(cell):
     cell.alignment = Alignment(horizontal="center", vertical="center")
     cell.border = THIN_BORDER
 
+@app.route("/healthz")
+def health_check():
+    return {"status": "ok"}, 200
+    
 # Authentication routes
 @app.route('/api/auth/register', methods=['POST'])
 def register():
