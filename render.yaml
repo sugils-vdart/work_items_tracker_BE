@@ -1,10 +1,8 @@
-# Exported from Render on 2025-10-07T19:50:39Z
 version: "1"
 services:
 - type: web
   name: work_items_tracker_BE
   runtime: python
-  pythonVersion: 3.12.15
   repo: https://github.com/sugils-vdart/work_items_tracker_BE
   plan: free
   envVars:
