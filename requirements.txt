@@ -1,0 +1,23 @@
+# Flask and Core Dependencies
+Flask==3.0.0
+Flask-CORS==4.0.0
+Flask-JWT-Extended==4.6.0
+Werkzeug==3.0.1
+
+# Database
+psycopg2-binary==2.9.9
+
+# Excel Export
+openpyxl==3.1.2
+
+# Timezone Support
+pytz==2024.1
+
+# WSGI Server (for production deployment)
+gunicorn==21.2.0
+
+# Optional: For development
+python-dotenv==1.0.0
+
+# Security
+cryptography==41.0.7
